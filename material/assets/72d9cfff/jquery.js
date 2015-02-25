@@ -1093,10 +1093,10 @@ setDocument = Sizzle.setDocument = function( node ) {
 	---------------------------------------------------------------------- */
 
 	// Check if getElementsByTagName("*") returns only elements
-	support.getElementsByTagName = assert(function( div ) {
-		div.appendChild( doc.createComment("") );
-		return !div.getElementsByTagName("*").length;
-	});
+//	support.getElementsByTagName = assert(function( div ) {
+//		div.appendChild( doc.createComment("") );
+//		return !div.getElementsByTagName("*").length;
+//	});
 
 	// Check if getElementsByClassName can be trusted
 	support.getElementsByClassName = rnative.test( doc.getElementsByClassName ) && assert(function( div ) {
